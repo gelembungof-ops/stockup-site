@@ -17,7 +17,7 @@
 <body>
 <main>
   <h1>StockUp — Support</h1>
-  <p class="muted">Grocery price book for iPhone and iPad</p>
+  <p class="muted">Grocery price book for iPhone</p>
 
   <p>Write to us — <a href="https://github.com/gelembungof-ops/stockup-site/issues">open a support ticket on GitHub</a> (an e-mail address will be added here shortly). We answer every message, usually within two days. Include your iOS version and what you were doing when something went wrong.</p>
 
@@ -29,6 +29,22 @@
 
   <h2>Barcode scanning</h2>
   <p>Scanning looks the barcode up in the Open Food Facts database. If the product is known, the name, brand and size are filled in for you; if not, type the name once — the barcode is kept, so next time the item is recognized instantly. Scanning never fills in prices; prices are always yours.</p>
+
+
+  <h2>Does my price book sync between devices?</h2>
+  <p>Not yet. Version 1 keeps everything on one iPhone, which is what makes it work with no account and no server. Use CSV export to move your book to a new phone; iCloud sync is on the list for a later version.</p>
+
+  <h2>What happens to my data if I delete the app?</h2>
+  <p>It is deleted with the app. Your price book is not stored anywhere else, so export a CSV backup before deleting or changing phones. Your iPhone backup (iCloud or computer) also includes the app's data.</p>
+
+  <h2>I bought Pro and it is not showing</h2>
+  <p>Open Settings inside the app and tap Restore purchases while signed in with the same Apple Account you bought it with. Pro is a one-time purchase tied to that account, so it comes back on any iPhone you use with it, at no extra cost.</p>
+
+  <h2>Do I have to pay again every year?</h2>
+  <p>No. There is no subscription. The free version keeps 25 items with every feature; Pro removes the limit for a single payment.</p>
+
+  <h2>Does the app need internet or my location?</h2>
+  <p>No. Everything works offline. The only network request in the app is a barcode lookup, and only when you scan. The app never asks for your location.</p>
 
   <h2>Import from a spreadsheet</h2>
   <p>Export your sheet as CSV with a header row. Only the <code>item</code> column is required. Recognized columns: <code>item, brand, category, barcode, store, date (YYYY-MM-DD), price, quantity, unit, pack_count, sale, note</code>. Units can be written as oz, lb, g, kg, fl oz, ml, L, gal, qt, pt, ct or dozen.</p>
